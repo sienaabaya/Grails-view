@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="Serah.local" name="gtunes.StoreTests" tests="1" time="0.101" timestamp="2014-01-30T09:30:56">
+  <properties />
+  <testcase classname="gtunes.StoreTests" name="testSomething" time="0.098">
+    <error message="No such property: controller for class: gtunes.StoreTests" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: controller for class: gtunes.StoreTests
+	at gtunes.StoreTests.testSomething(StoreTests.groovy:15)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

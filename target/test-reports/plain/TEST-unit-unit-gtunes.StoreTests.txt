@@ -1,0 +1,15 @@
+Testsuite: gtunes.StoreTests
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0.101 sec
+------------- Standard Output ---------------
+--Output from testSomething--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSomething--
+------------- ---------------- ---------------
+
+Testcase: testSomething took 0.095 sec
+	Caused an ERROR
+No such property: controller for class: gtunes.StoreTests
+groovy.lang.MissingPropertyException: No such property: controller for class: gtunes.StoreTests
+	at gtunes.StoreTests.testSomething(StoreTests.groovy:15)
+

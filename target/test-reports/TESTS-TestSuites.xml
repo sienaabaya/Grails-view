@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="Serah.local" id="0" name="AlbumControllerTests" package="gtunes" tests="1" time="2.168" timestamp="2014-01-30T09:30:52">
+      <properties />
+
+      <testcase classname="gtunes.AlbumControllerTests" name="testSomething" time="1.834">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at gtunes.AlbumControllerTests.testSomething(AlbumControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Serah.local" id="1" name="AlbumTests" package="gtunes" tests="1" time="0.717" timestamp="2014-01-30T09:30:54">
+      <properties />
+
+      <testcase classname="gtunes.AlbumTests" name="testSomething" time="0.566">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at gtunes.AlbumTests.testSomething(AlbumTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Serah.local" id="2" name="SongControllerTests" package="gtunes" tests="1" time="0.45" timestamp="2014-01-30T09:30:55">
+      <properties />
+
+      <testcase classname="gtunes.SongControllerTests" name="testSomething" time="0.301">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at gtunes.SongControllerTests.testSomething(SongControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Serah.local" id="3" name="SongTests" package="gtunes" tests="1" time="0.317" timestamp="2014-01-30T09:30:55">
+      <properties />
+
+      <testcase classname="gtunes.SongTests" name="testSomething" time="0.149">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at gtunes.SongTests.testSomething(SongTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Serah.local" id="4" name="StoreControllerTests" package="gtunes" tests="1" time="0.387" timestamp="2014-01-30T09:30:55">
+      <properties />
+
+      <testcase classname="gtunes.StoreControllerTests" name="testSomething" time="0.291" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="Serah.local" id="5" name="StoreTests" package="gtunes" tests="1" time="0.101" timestamp="2014-01-30T09:30:56">
+      <properties />
+
+      <testcase classname="gtunes.StoreTests" name="testSomething" time="0.098">
+          <error message="No such property: controller for class: gtunes.StoreTests" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: controller for class: gtunes.StoreTests
+	at gtunes.StoreTests.testSomething(StoreTests.groovy:15)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
