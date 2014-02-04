@@ -10,6 +10,22 @@
 	<g:textField name="title" required="" value="${albumInstance?.title}"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: albumInstance, field: 'yearOfRelease', 'error')} required">
+	<label for="yearOfRelease">
+		<g:message code="album.yearOfRelease.label" default="Year Of Release" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:field name="yearOfRelease" type="number" value="${albumInstance.yearOfRelease}" required=""/>
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: albumInstance, field: 'producer', 'error')} ">
+	<label for="producer">
+		<g:message code="album.producer.label" default="Producer" />
+		
+	</label>
+	<g:textField name="producer" value="${albumInstance?.producer}"/>
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: albumInstance, field: 'songs', 'error')} ">
 	<label for="songs">
 		<g:message code="album.songs.label" default="Songs" />

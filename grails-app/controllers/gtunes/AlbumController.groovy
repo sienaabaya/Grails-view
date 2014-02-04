@@ -26,7 +26,7 @@ class AlbumController {
             return
         }
 
-        flash.message = message(code: 'default.created.message', args: [message(code: 'album.label', default: 'Album'), albumInstance.id])
+        flash.message = message(code: 'default.created.message', args: [message(code: 'album.label'), albumInstance.title])
         redirect(action: "show", id: albumInstance.id)
     }
 

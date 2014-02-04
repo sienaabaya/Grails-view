@@ -6,6 +6,7 @@
 		<meta name="layout" content="main">
 		<g:set var="entityName" value="${message(code: 'album.label', default: 'Album')}" />
 		<title><g:message code="default.show.label" args="[entityName]" /></title>
+
 	</head>
 	<body>
 		<a href="#show-album" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
@@ -28,6 +29,24 @@
 					<span id="title-label" class="property-label"><g:message code="album.title.label" default="Title" /></span>
 					
 						<span class="property-value" aria-labelledby="title-label"><g:fieldValue bean="${albumInstance}" field="title"/></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${albumInstance?.yearOfRelease}">
+				<li class="fieldcontain">
+					<span id="yearOfRelease-label" class="property-label"><g:message code="album.yearOfRelease.label" default="Year Of Release" /></span>
+					
+						<span class="property-value" aria-labelledby="yearOfRelease-label"><g:fieldValue bean="${albumInstance}" field="yearOfRelease"/></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${albumInstance?.producer}">
+				<li class="fieldcontain">
+					<span id="producer-label" class="property-label"><g:message code="album.producer.label" default="Producer" /></span>
+					
+						<span class="property-value" aria-labelledby="producer-label"><g:fieldValue bean="${albumInstance}" field="producer"/></span>
 					
 				</li>
 				</g:if>
